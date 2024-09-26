@@ -1,0 +1,22 @@
+{
+  "name": "jest-mock-date-example",
+  "version": "1.0.0",
+  "description": "A demo repo for a blog post to mock date in Jest tests",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "jest": "^29.7.0"
+  }
+}
