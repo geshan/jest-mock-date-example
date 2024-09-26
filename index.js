@@ -1,3 +1,3 @@
-import { getYearToDateInDays } from './src/dateHelper.js';
+import { getDayOfYear } from './src/dateHelper.js';
 
-console.log(`Today is day ${getYearToDateInDays()} / 365 days of this year ${new Date().getFullYear()}.`);
+console.log(`Today is day ${getDayOfYear()} / 365 days of this year ${new Date().getFullYear()}.`);
